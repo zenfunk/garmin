@@ -180,8 +180,6 @@ seamark:light:1=* [0x010100 resolution 20]
 #other
 waterway=depth & name=* { name '${name|subst:,=>.}' } [ 0x6200 resolution 22]
 waterway=fuel { add mkgmap:xt-facilities='0x40'; }[ 0x010903 resolution 22 ]
-waterway=wreck [ 0x010402 resolution 22 ]
-historic=wreck [ 0x010402 resolution 22 ]
 
 waterway=dock { name '${name}' | 'dock' } [0x2f09 resolution 24]
 waterway=lock_gate { name '${name}' | 'lock gate' } [0x5800 level 1]
